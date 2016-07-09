@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Maxine Ellah, Web Developer, New Zealand">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'/>
+    <!-- <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'/> -->
     <title>Maxine Ellah</title>
   </head>
-  
+
   <body ng-app="webCV">
 
-    <div class="content">
+    <div ng-controller="webCV" class="content">
 
+      <heading info="header"></heading>
+      <sub-heading info="subHeader"></sub-heading>
+      <links info="links"></links>
 
     </div>
 

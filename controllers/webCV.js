@@ -1,4 +1,4 @@
-app.controller('mainController', function($scope) {
+app.controller('webCV', function($scope) {
   $scope.header = {
     text: 'ME'
   };
@@ -16,5 +16,5 @@ app.controller('mainController', function($scope) {
   {
     text: 'Contact'
   }]
-  
+
 })
