@@ -6,7 +6,15 @@ body {
   display: flex;
 }
 
+.content {
+  margin: none;
+}
 
 @media (min-width: 640px) {
+
+.content {
+  margin: auto;
+  color: red;
+}
 
 }
