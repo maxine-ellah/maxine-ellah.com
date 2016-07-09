@@ -8,13 +8,16 @@ app.controller('webCV', function($scope) {
   };
 
   $scope.links = [{
-    text: 'Github'
+    text: 'Github',
+    link: 'https://github.com/maxine-ellah'
   },
   {
-    text: 'Resume'
+    text: 'Resume',
+    link: ''
   },
   {
-    text: 'Contact'
+    text: 'Contact',
+    link: ''
   }]
 
 })
