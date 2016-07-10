@@ -1,26 +1,28 @@
+body {
+  background-color: pink;
+}
+
 a {
   text-decoration: none;
 }
 
-body {
-
-}
-
 h2 {
-  /*display: inline-block;*/
   position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -19px;
+  margin-top: -19px;
 }
 
 .content {
-  position: relative;
-  /*text-align: center;*/
-
+  height: 100%;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 @media (min-width: 640px) {
 
 .content {
-  margin: auto;
   color: red;
 }
 
