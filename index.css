@@ -3,11 +3,18 @@ a {
 }
 
 body {
-  display: flex;
+
+}
+
+h2 {
+  /*display: inline-block;*/
+  position: absolute;
 }
 
 .content {
-  margin: none;
+  position: relative;
+  /*text-align: center;*/
+
 }
 
 @media (min-width: 640px) {

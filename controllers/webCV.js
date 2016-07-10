@@ -13,11 +13,11 @@ app.controller('webCV', function($scope) {
   },
   {
     text: 'Resume',
-    link: ''
+    link: '../MaxineEllahCV.pdf'
   },
   {
     text: 'Contact',
-    link: ''
+    link: 'mailto:maxine.ellah@gmail.com'
   }]
 
 })
