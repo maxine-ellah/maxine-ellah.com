@@ -14,16 +14,41 @@ h2 {
   margin-top: -19px;
 }
 
+h4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+}
+
+.stuff {
+  list-style: none;
+  /*text-align: justify;*/
+  align-content: space-around;
+
+}
+
+
+.stuff li {
+  background-color: #f00;
+  border: 1px solid #000;
+  /*display: inline-block;*/
+  height: 50px;
+  width: 100px;
+}
+
 .content {
   height: 100%;
   margin-bottom: 50px;
   padding: 20px;
 }
 
+
 @media (min-width: 640px) {
 
 .content {
   color: red;
+  font-size: 150%;
 }
 
 }
