@@ -1,7 +1,14 @@
 body {
-  background-color: pink;
+  background-color: rgb(249, 210, 219);
   display: flex;
   justify-content: center;
+}
+
+main {
+  background-color: rgb(242, 218, 230);
+  top: 1rem;
+  height: calc(100vh - 1rem);
+  width: calc(100vw - 1rem);
 }
 
 a {
@@ -41,8 +48,7 @@ li {
 
 .content {
   height: 100%;
-  margin-bottom: 50px;
-  padding: 20px;
+  width: 100%;
 }
 
 @media (min-width: 480px) {
