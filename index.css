@@ -1,5 +1,7 @@
 body {
   background-color: pink;
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -9,7 +11,7 @@ a {
 h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   margin-left: -19px;
   margin-top: -19px;
 }
@@ -17,25 +19,25 @@ h2 {
 h4 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 43%;
   margin-left: -20px;
 }
 
-.stuff {
+li {
   list-style: none;
-  /*text-align: justify;*/
-  align-content: space-around;
-
-}
-
-
-.stuff li {
-  background-color: #f00;
-  border: 1px solid #000;
-  /*display: inline-block;*/
-  height: 50px;
+  height: 20px;
   width: 100px;
+  margin-bottom: 10px;
 }
+
+.things {
+  position: absolute;
+  left: 53%;
+  top: 70%;
+  margin-left: -70px;
+  margin-top: -70px;
+}
+
 
 .content {
   height: 100%;
@@ -43,12 +45,52 @@ h4 {
   padding: 20px;
 }
 
+@media (min-width: 480px) {
+
+  h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -19px;
+    margin-top: -19px;
+  }
+
+  h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+  }
+
+  .things {
+    position: absolute;
+    left: 85%;
+    top: 75%;
+  }
+}
 
 @media (min-width: 640px) {
 
-.content {
-  color: red;
-  font-size: 150%;
-}
+
+  h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -19px;
+    margin-top: -19px;
+  }
+
+  h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+  }
+
+  .things {
+    position: absolute;
+    left: 85%;
+    top: 75%;
+  }
 
 }

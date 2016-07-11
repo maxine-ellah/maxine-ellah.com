@@ -1,7 +1,8 @@
-<div ng-repeat="x in info">
-  <ul class="stuff">
+<div ng-repeat="x in info" class="stuff">
+  <ul>
     <li>
-      <a href="{{ x.link }}" target="_blank">{{ x.text }}</a>
+      <a ng-href="{{ x.link }}"
+      target="_blank">{{ x.text }}</a>
     </li>
   </ul>
 </div>
