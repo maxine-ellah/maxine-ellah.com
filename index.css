@@ -33,7 +33,7 @@ li {
 .things {
   position: absolute;
   left: 53%;
-  top: 70%;
+  top: 80%;
   margin-left: -70px;
   margin-top: -70px;
 }
@@ -64,12 +64,14 @@ li {
 
   .things {
     position: absolute;
-    left: 85%;
-    top: 75%;
+    left: 52%;
+    top: 80%;
+    margin-left: -70px;
+    margin-top: -70px;
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 770px) {
 
 
   h2 {
@@ -89,8 +91,16 @@ li {
 
   .things {
     position: absolute;
-    left: 85%;
-    top: 75%;
+    left: 90%;
+    top: 85%;
+  }
+
+@media (min-width: 1024px) {
+
+  .things {
+    position: absolute;
+    left: 90%;
+    top: 85%;
   }
 
 }
