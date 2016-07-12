@@ -15,13 +15,56 @@ a {
   text-decoration: none;
 }
 
-h2 {
+
+#first {
   position: absolute;
   left: 50%;
   top: 40%;
   margin-left: -19px;
   margin-top: -19px;
 }
+
+#rest1 {
+  transition: all 0.5s ease;
+  letter-spacing: -10px;
+  color: rgb(242, 218, 230);
+  position: absolute;
+  left: 51%;
+  top: 40%;
+  /*margin-left: -19px;*/
+  margin-top: -19px;
+}
+
+
+#rest2 {
+
+}
+
+
+#second {
+  transition: all 0.5s ease;
+  letter-spacing: -10px;
+  position: absolute;
+  left: 61%;
+  top: 40%;
+  margin-top: -19px;
+}
+
+#first:hover {
+  display: inline;
+  letter-spacing: 2px;
+}
+
+#first:hover + #rest1 {
+  color: rgb(5, 5, 5);
+  letter-spacing: 2px;
+}
+
+#first:hover + #rest2 {
+  display: block;
+  letter-spacing: 2px;
+}
+
 
 h4 {
   position: absolute;
@@ -36,6 +79,7 @@ li {
   width: 100px;
   margin-bottom: 10px;
 }
+
 
 .things {
   position: absolute;
@@ -64,7 +108,7 @@ li {
   h4 {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 43%;
     margin-left: -20px;
   }
 
@@ -75,6 +119,15 @@ li {
     margin-left: -70px;
     margin-top: -70px;
   }
+
+  #rest1 {
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    /*margin-left: -19px;*/
+    margin-top: -19px;
+  }
+
 }
 
 @media (min-width: 770px) {
@@ -91,7 +144,7 @@ li {
   h4 {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 43%;
     margin-left: -20px;
   }
 
@@ -99,6 +152,14 @@ li {
     position: absolute;
     left: 90%;
     top: 85%;
+  }
+
+  #rest1 {
+    position: absolute;
+    left: 52.7%;
+    top: 40%;
+    /*margin-left: -19px;*/
+    margin-top: -19px;
   }
 
 @media (min-width: 1024px) {
