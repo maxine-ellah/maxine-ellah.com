@@ -29,8 +29,8 @@ a {
   transition: all 0.5s ease;
   color: black;
   position: absolute;
-  left: 75%;
-  top: 40%;
+  left: 44%;
+  top: 45%;
   margin-top: -19px;
 }
 
@@ -52,8 +52,8 @@ a {
   color: rgb(242, 218, 230);
   /*color: black;*/
   position: absolute;
-  left: 79.6%;
-  top: 40%;
+  left: 49.5%;
+  top: 45%;
   margin-top: -19px;
 }
 
@@ -72,7 +72,7 @@ a {
 h4 {
   position: absolute;
   left: 50%;
-  top: 43%;
+  top: 47%;
   margin-left: -20px;
 }
 
@@ -124,18 +124,30 @@ li {
     margin-top: -70px;
   }
 
+  #second {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
   #rest1 {
     position: absolute;
-    left: 53%;
+    left: 54.5%;
     top: 40%;
-    /*margin-left: -19px;*/
+    margin-top: -19px;
+  }
+
+  #rest2 {
+    position: absolute;
+    left: 78.2%;
+    top: 40%;
     margin-top: -19px;
   }
 
 }
 
 @media (min-width: 770px) {
-
 
   h2 {
     position: absolute;
@@ -163,6 +175,13 @@ li {
     left: 52.7%;
     top: 40%;
     /*margin-left: -19px;*/
+    margin-top: -19px;
+  }
+
+  #rest2 {
+    position: absolute;
+    left: 76.4%;
+    top: 40%;
     margin-top: -19px;
   }
 
