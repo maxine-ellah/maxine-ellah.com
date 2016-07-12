@@ -24,45 +24,35 @@ a {
   margin-top: -19px;
 }
 
+#second {
+  transition: all 0.5s ease;
+  color: black;
+  position: absolute;
+  left: 69%;
+  top: 40%;
+  margin-top: -19px;
+}
+
 #rest1 {
   transition: all 0.5s ease;
   letter-spacing: -10px;
+  /*display: none;*/
   color: rgb(242, 218, 230);
+  /*color: black;*/
   position: absolute;
   left: 51%;
   top: 40%;
-  /*margin-left: -19px;*/
   margin-top: -19px;
-}
-
-
-#rest2 {
-
-}
-
-
-#second {
-  transition: all 0.5s ease;
-  letter-spacing: -10px;
-  position: absolute;
-  left: 61%;
-  top: 40%;
-  margin-top: -19px;
-}
-
-#first:hover {
-  display: inline;
-  letter-spacing: 2px;
 }
 
 #first:hover + #rest1 {
   color: rgb(5, 5, 5);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  display: block;
 }
 
-#first:hover + #rest2 {
-  display: block;
-  letter-spacing: 2px;
+#first:hover + #second {
+  color: rgb(242, 218, 230);
 }
 
 
@@ -91,6 +81,7 @@ li {
 
 
 .content {
+  font-family: 'Bitter', serif;
   height: 100%;
   width: 100%;
 }
