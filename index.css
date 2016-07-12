@@ -12,6 +12,7 @@ main {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -28,7 +29,7 @@ a {
   transition: all 0.5s ease;
   color: black;
   position: absolute;
-  left: 69%;
+  left: 75%;
   top: 40%;
   margin-top: -19px;
 }
@@ -36,24 +37,45 @@ a {
 #rest1 {
   transition: all 0.5s ease;
   letter-spacing: -10px;
-  /*display: none;*/
   color: rgb(242, 218, 230);
   /*color: black;*/
+  display: none;
   position: absolute;
   left: 51%;
   top: 40%;
   margin-top: -19px;
 }
 
-#first:hover + #rest1 {
-  color: rgb(5, 5, 5);
-  letter-spacing: 1px;
-  display: block;
+#rest2 {
+  transition: all 0.5s ease;
+  letter-spacing: -10px;
+  color: rgb(242, 218, 230);
+  /*color: black;*/
+  position: absolute;
+  left: 81%;
+  top: 40%;
+  margin-top: -19px;
 }
 
-#first:hover + #second {
+.guts {
+  transition: all 0.5s ease;
+  letter-spacing: -10px;
   color: rgb(242, 218, 230);
 }
+
+#first:hover ~ .guts {
+  display: block;
+  color: black;
+  letter-spacing: 1px;
+}
+
+/*#first:hover + #rest1 {
+  display: block;
+  color: rgb(5, 5, 5);
+  letter-spacing: 1px;
+}*/
+
+
 
 
 h4 {
@@ -155,10 +177,25 @@ li {
 
 @media (min-width: 1024px) {
 
+  #rest1 {
+    position: absolute;
+    left: 51.8%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
   .things {
     position: absolute;
     left: 90%;
     top: 85%;
   }
 
+@media (min-width: 1440px) {
+
+  #rest1 {
+    position: absolute;
+    left: 51.6%;
+    top: 40%;
+    margin-top: -19px;
+  }
 }
