@@ -26,11 +26,10 @@ a {
 }
 
 #second {
-  transition: all 0.5s ease;
-  color: black;
   position: absolute;
-  left: 44%;
+  left: 50%;
   top: 45%;
+  margin-left: -19px;
   margin-top: -19px;
 }
 
@@ -94,7 +93,7 @@ li {
 
 
 .content {
-  font-family: 'Bitter', serif;
+  font-family: 'Varela Round', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -147,6 +146,39 @@ li {
 
 }
 
+@media (min-width: 510px) {
+
+  .things {
+    position: absolute;
+    left: 52%;
+    top: 80%;
+    margin-left: -70px;
+    margin-top: -70px;
+  }
+
+  #second {
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
+  #rest1 {
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
+  #rest2 {
+    position: absolute;
+    left: 67.3%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
+}
+
 @media (min-width: 770px) {
 
   h2 {
@@ -170,22 +202,36 @@ li {
     top: 85%;
   }
 
+  #second {
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
   #rest1 {
     position: absolute;
-    left: 52.7%;
+    left: 52.8%;
     top: 40%;
-    /*margin-left: -19px;*/
     margin-top: -19px;
   }
 
   #rest2 {
     position: absolute;
-    left: 76.4%;
+    left: 67%;
     top: 40%;
     margin-top: -19px;
   }
+}
 
 @media (min-width: 1024px) {
+
+  #second {
+    position: absolute;
+    left: 58.5%;
+    top: 40%;
+    margin-top: -19px;
+  }
 
   #rest1 {
     position: absolute;
@@ -196,7 +242,7 @@ li {
 
   #rest2 {
     position: absolute;
-    left: 76.4%;
+    left: 59.8%;
     top: 40%;
     margin-top: -19px;
   }
@@ -209,17 +255,25 @@ li {
 
 @media (min-width: 1440px) {
 
+  #second {
+    position: absolute;
+    left: 58.5%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
   #rest1 {
     position: absolute;
-    left: 51.6%;
+    left: 51.8%;
     top: 40%;
     margin-top: -19px;
   }
 
   #rest2 {
     position: absolute;
-    left: 76.6%;
+    left: 59.8%;
     top: 40%;
     margin-top: -19px;
   }
+
 }
