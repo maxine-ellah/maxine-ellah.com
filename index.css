@@ -52,7 +52,7 @@ a {
   color: rgb(242, 218, 230);
   /*color: black;*/
   position: absolute;
-  left: 81%;
+  left: 79.6%;
   top: 40%;
   margin-top: -19px;
 }
@@ -68,15 +68,6 @@ a {
   color: black;
   letter-spacing: 1px;
 }
-
-/*#first:hover + #rest1 {
-  display: block;
-  color: rgb(5, 5, 5);
-  letter-spacing: 1px;
-}*/
-
-
-
 
 h4 {
   position: absolute;
@@ -184,6 +175,13 @@ li {
     margin-top: -19px;
   }
 
+  #rest2 {
+    position: absolute;
+    left: 76.4%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
   .things {
     position: absolute;
     left: 90%;
@@ -195,6 +193,13 @@ li {
   #rest1 {
     position: absolute;
     left: 51.6%;
+    top: 40%;
+    margin-top: -19px;
+  }
+
+  #rest2 {
+    position: absolute;
+    left: 76.6%;
     top: 40%;
     margin-top: -19px;
   }
