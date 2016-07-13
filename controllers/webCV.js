@@ -1,7 +1,7 @@
 app.controller('webCV', function($scope) {
   $scope.header = {
-    first: 'M',
-    second: 'E'
+    first: 'Maxine',
+    second: 'Ellah'
 
   };
 

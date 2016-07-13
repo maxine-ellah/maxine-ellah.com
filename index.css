@@ -21,7 +21,7 @@ a {
   position: absolute;
   left: 50%;
   top: 40%;
-  margin-left: -19px;
+  margin-left: -42px;
   margin-top: -19px;
 }
 
@@ -29,50 +29,15 @@ a {
   position: absolute;
   left: 50%;
   top: 45%;
-  margin-left: -19px;
+  margin-left: -42px;
   margin-top: -19px;
-}
-
-#rest1 {
-  transition: all 0.5s ease;
-  letter-spacing: -10px;
-  color: rgb(242, 218, 230);
-  /*color: black;*/
-  display: none;
-  position: absolute;
-  left: 51%;
-  top: 40%;
-  margin-top: -19px;
-}
-
-#rest2 {
-  transition: all 0.5s ease;
-  letter-spacing: -10px;
-  color: rgb(242, 218, 230);
-  /*color: black;*/
-  position: absolute;
-  left: 49.5%;
-  top: 45%;
-  margin-top: -19px;
-}
-
-.guts {
-  transition: all 0.5s ease;
-  letter-spacing: -10px;
-  color: rgb(242, 218, 230);
-}
-
-#first:hover ~ .guts {
-  display: block;
-  color: black;
-  letter-spacing: 1px;
 }
 
 h4 {
   position: absolute;
   left: 50%;
   top: 47%;
-  margin-left: -20px;
+  margin-left: -42px;
 }
 
 li {
@@ -87,7 +52,7 @@ li {
   position: absolute;
   left: 53%;
   top: 80%;
-  margin-left: -70px;
+  margin-left: -77px;
   margin-top: -70px;
 }
 
@@ -100,180 +65,31 @@ li {
 
 @media (min-width: 480px) {
 
-  h2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -19px;
-    margin-top: -19px;
-  }
-
-  h4 {
-    position: absolute;
-    left: 50%;
-    top: 43%;
-    margin-left: -20px;
-  }
-
-  .things {
-    position: absolute;
-    left: 52%;
-    top: 80%;
-    margin-left: -70px;
-    margin-top: -70px;
-  }
-
-  #second {
-    position: absolute;
-    left: 75%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest1 {
-    position: absolute;
-    left: 54.5%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest2 {
-    position: absolute;
-    left: 78.2%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-}
-
-@media (min-width: 510px) {
-
-  .things {
-    position: absolute;
-    left: 52%;
-    top: 80%;
-    margin-left: -70px;
-    margin-top: -70px;
-  }
-
-  #second {
-    position: absolute;
-    left: 65%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest1 {
-    position: absolute;
-    left: 53%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest2 {
-    position: absolute;
-    left: 67.3%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-}
-
-@media (min-width: 770px) {
-
-  h2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -19px;
-    margin-top: -19px;
-  }
-
-  h4 {
-    position: absolute;
-    left: 50%;
-    top: 43%;
-    margin-left: -20px;
-  }
-
   .things {
     position: absolute;
     left: 90%;
     top: 85%;
   }
 
+
   #second {
-    position: absolute;
-    left: 65%;
-    top: 40%;
-    margin-top: -19px;
+    /*position: absolute;*/
+    margin-left: 55px;
+    margin-top: -54.2px;
   }
 
-  #rest1 {
+  /*#second {
     position: absolute;
-    left: 52.8%;
     top: 40%;
+    margin-left: 10.5%;
     margin-top: -19px;
   }
-
-  #rest2 {
-    position: absolute;
-    left: 67%;
-    top: 40%;
-    margin-top: -19px;
-  }
-}
-
-@media (min-width: 1024px) {
 
   #second {
     position: absolute;
-    left: 58.5%;
-    top: 40%;
+    left: 50%;
+    top: 45%;
+    margin-left: -42px;
     margin-top: -19px;
-  }
-
-  #rest1 {
-    position: absolute;
-    left: 51.8%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest2 {
-    position: absolute;
-    left: 59.8%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  .things {
-    position: absolute;
-    left: 90%;
-    top: 85%;
-  }
-
-@media (min-width: 1440px) {
-
-  #second {
-    position: absolute;
-    left: 58.5%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest1 {
-    position: absolute;
-    left: 51.8%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
-  #rest2 {
-    position: absolute;
-    left: 59.8%;
-    top: 40%;
-    margin-top: -19px;
-  }
-
+  }*/
 }
