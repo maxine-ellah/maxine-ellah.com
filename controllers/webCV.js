@@ -15,7 +15,7 @@ app.controller('webCV', function($scope) {
   },
   {
     text: 'Resume',
-    link: 'https://docs.google.com/document/d/1lnLSrh6rwcikrYyQd7dF8p_pRk9t9CfQ36cHBDt6fSA/pub'
+    link: '/images/MaxineEllahCV.pdf'
   },
   {
     text: 'Contact',
