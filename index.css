@@ -43,6 +43,11 @@ h4 {
   left: 50%;
   top: 48%;
   margin-left: -23px;
+  transition: all 0.5s ease
+}
+
+h4:hover {
+  letter-spacing: 3px;
 }
 
 li {
