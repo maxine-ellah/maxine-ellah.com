@@ -31,6 +31,11 @@ a {
   top: 45%;
   margin-left: -42px;
   margin-top: -19px;
+  line-height: 1.7;
+}
+
+h2 {
+  display: block;
 }
 
 h4 {
@@ -71,25 +76,12 @@ li {
     top: 85%;
   }
 
+}
 
-  #second {
-    /*position: absolute;*/
-    margin-left: 55px;
-    margin-top: -54.2px;
-  }
+@media (min-width: 1024px) {
 
-  /*#second {
-    position: absolute;
-    top: 40%;
-    margin-left: 10.5%;
-    margin-top: -19px;
-  }
+.content {
+  font-size: 120%;
+}
 
-  #second {
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    margin-left: -42px;
-    margin-top: -19px;
-  }*/
 }
