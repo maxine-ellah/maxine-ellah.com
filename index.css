@@ -21,7 +21,7 @@ a {
   position: absolute;
   left: 50%;
   top: 40%;
-  margin-left: -42px;
+  margin-left: -26px;
   margin-top: -19px;
 }
 
@@ -29,7 +29,7 @@ a {
   position: absolute;
   left: 50%;
   top: 45%;
-  margin-left: -42px;
+  margin-left: -26px;
   margin-top: -19px;
   line-height: 1.7;
 }
@@ -41,8 +41,8 @@ h2 {
 h4 {
   position: absolute;
   left: 50%;
-  top: 47%;
-  margin-left: -42px;
+  top: 48%;
+  margin-left: -23px;
 }
 
 li {
@@ -52,6 +52,9 @@ li {
   margin-bottom: 10px;
 }
 
+li:hover {
+  color: rgb(198, 151, 200);
+}
 
 .things {
   position: absolute;
@@ -60,7 +63,6 @@ li {
   margin-left: -77px;
   margin-top: -70px;
 }
-
 
 .content {
   font-family: 'Varela Round', sans-serif;
