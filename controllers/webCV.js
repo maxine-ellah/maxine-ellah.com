@@ -1,6 +1,8 @@
 app.controller('webCV', function($scope) {
   $scope.header = {
-    text: 'ME'
+    first: 'Maxine',
+    second: 'Ellah'
+
   };
 
   $scope.subHeader = {
@@ -13,7 +15,7 @@ app.controller('webCV', function($scope) {
   },
   {
     text: 'Resume',
-    link: '../MaxineEllahCV.pdf'
+    link: './MaxineEllahCV.pdf'
   },
   {
     text: 'Contact',
