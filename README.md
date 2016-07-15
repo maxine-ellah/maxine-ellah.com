@@ -2,4 +2,4 @@
 
 ### My website. :eyes:
 
-Also, my first time building using AngularJS :+1:
+Also, my first time building using AngularJS :metal:
