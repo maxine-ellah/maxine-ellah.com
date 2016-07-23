@@ -1,4 +1,4 @@
-app.controller('webCV', function($scope) {
+app.controller('CvController', function($scope) {
   $scope.header = {
     firstName: 'Maxine',
     secondName: 'Ellah'
