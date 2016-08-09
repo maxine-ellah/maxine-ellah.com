@@ -15,7 +15,7 @@ app.controller('webCV', function($scope) {
   },
   {
     text: 'Resume',
-    link: '/images/MaxineEllahCVdnowrng.pdf'
+    // link: '/images/MaxineEllahCV.pdf'
   },
   {
     text: 'Contact',
