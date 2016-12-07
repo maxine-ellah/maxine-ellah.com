@@ -16,38 +16,11 @@ a {
   text-decoration: none;
 }
 
-
-#first {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  margin-left: -26px;
-  margin-top: -19px;
-}
-
-#second {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  margin-left: -26px;
-  margin-top: -19px;
-  line-height: 1.7;
-}
-
 h2 {
   display: block;
 }
 
-h4 {
-  position: absolute;
-  left: 50%;
-  top: 48%;
-  margin-left: -23px;
-  transition: all 0.5s ease
-}
-
 h4:hover {
-  letter-spacing: 3px;
 }
 
 li {
@@ -61,18 +34,33 @@ li:hover {
   color: rgb(198, 151, 200);
 }
 
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  font-family: 'Fira Mono', monospace;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  line-height: 30px;
+}
+
+.title {
+}
+
 .things {
+  font-family: 'Fira Mono', monospace;
   position: absolute;
   left: 53%;
   top: 80%;
   margin-left: -77px;
   margin-top: -70px;
-}
-
-.content {
-  font-family: 'Varela Round', sans-serif;
-  height: 100%;
-  width: 100%;
 }
 
 @media (min-width: 480px) {

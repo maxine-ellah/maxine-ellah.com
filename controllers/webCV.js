@@ -6,7 +6,7 @@ app.controller('webCV', function($scope) {
   };
 
   $scope.subHeader = {
-    text: 'Web Developer'
+    text: 'Developer'
   };
 
   $scope.links = [{
