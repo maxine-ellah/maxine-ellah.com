@@ -18,7 +18,7 @@ app.controller('webCV', function($scope) {
     link: 'https://maxine-ellah.github.io/Maxine-Art/'
   },
   {
-    text: 'Resume',
+    text: 'CV',
     link: '/images/MaxineEllahCV.pdf'
   },
   {
