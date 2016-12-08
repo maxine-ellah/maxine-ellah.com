@@ -2,11 +2,11 @@ app.controller('webCV', function($scope) {
   $scope.header = {
     firstName: 'Maxine',
     secondName: 'Ellah'
-
   };
 
   $scope.subHeader = {
-    text: 'Web Developer'
+    text: 'Developer',
+    link: 'mailto:maxine.ellah@gmail.com'
   };
 
   $scope.links = [{
@@ -14,12 +14,13 @@ app.controller('webCV', function($scope) {
     link: 'https://github.com/maxine-ellah'
   },
   {
-    text: 'Resume',
-    link: '/images/MaxineEllahCV.pdf'
+    text: 'Art',
+    link: 'https://maxine-ellah.github.io/Maxine-Art/'
   },
   {
-    text: 'Contact',
-    link: 'mailto:maxine.ellah@gmail.com'
-  }]
+    text: 'CV',
+    link: '/images/MaxineEllahCV.pdf'
+  },
+]
 
 })
