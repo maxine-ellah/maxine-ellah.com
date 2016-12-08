@@ -23,14 +23,9 @@ h2 {
 h4:hover {
 }
 
-ul {
-  padding: 0;
-}
-
 li {
   list-style: none;
   height: 20px;
-  width: 100px;
   margin-bottom: 10px;
 }
 
@@ -60,26 +55,26 @@ li:hover {
 
 .things {
   font-family: 'Fira Mono', monospace;
-  position: absolute;
+  /*position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, 90%);
+  transform: translate(-50%, 230%);*/
+  text-align: center;
+  font-size: 15px;
 }
 
-@media (min-width: 480px) {
-
-  .things {
-    position: absolute;
-    left: 90%;
-    top: 85%;
-  }
-
-}
 
 @media (min-width: 1024px) {
 
-.content {
-  font-size: 120%;
-}
+  .things {
+    flex-direction: column;
+  }
+
+  .content {
+    font-size: 120%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
 
 }

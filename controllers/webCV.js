@@ -21,9 +21,10 @@ app.controller('webCV', function($scope) {
     text: 'CV',
     link: '/images/MaxineEllahCV.pdf'
   },
-  {
-    text: 'Contact',
-    link: 'mailto:maxine.ellah@gmail.com'
-  }]
+  // {
+  //   text: 'Contact',
+  //   link: 'mailto:maxine.ellah@gmail.com'
+  // }
+]
 
 })
