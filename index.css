@@ -17,15 +17,14 @@ a {
 }
 
 ul {
-  /*position: fixed;
-  top: 0;
-  width: 100%;*/
+  display: flex;
+  width: 100%;
 }
 
 li {
+  margin: auto;
   list-style: none;
-  height: 20px;
-  margin-bottom: 10px;
+  display: inline-block;
 }
 
 li:hover {
@@ -45,7 +44,6 @@ li:hover {
 .content {
   height: 100%;
   width: 100%;
-  display: flex;
   align-items: flex-end;
   justify-content: center;
 }
@@ -80,6 +78,7 @@ li:hover {
 @media (min-width: 1024px) {
 
   .content {
+    display: flex;
     font-size: 120%;
     justify-content: flex-end;
   }
