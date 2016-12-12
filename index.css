@@ -33,11 +33,6 @@ ul {
   justify-content: space-between;
 }
 
-
-li:hover {
-  color: rgb(198, 151, 200);
-}
-
 li {
   list-style: none;
   display: inline-block;
@@ -86,6 +81,10 @@ li {
     font-size: 75%;
     flex-direction: column;
     /*padding: 0px 25px 25px 0px;*/
+  }
+
+  .links a:hover {
+    color: rgb(198, 151, 200);
   }
 
 }
