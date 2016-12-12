@@ -1,8 +1,10 @@
 <div class="links">
-  <div ng-repeat="x in info">
+  <ul>
+    <div class="button" ng-repeat="x in info">
       <li>
         <a ng-href="{{ x.link }}"
         target="_blank">{{ x.text }}</a>
       </li>
-  </div>
+    </div>
+  </ul>
 </div>
